@@ -27,4 +27,3 @@ app.listen(port, function(err){
 		open('http://localhost:' + port);
 	}
 });
-console.log('Web Server Ready...');
