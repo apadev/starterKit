@@ -1,5 +1,6 @@
 export default function getBaseUrl(){
-	return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : '/';
+	// api url using heroku
+	//return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://warm-tundra-97460.herokuapp.com/';
 }
 
 function getQueryStringParameterByName(name, url){
